@@ -5,22 +5,22 @@ Console.WriteLine(); // Espacamento
 
 // Solicitando e armazenando notas
 Console.Write("Digite a nota 1: ");
-nota1 = Convert.ToInt32(Console.ReadLine());
+nota1 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Digite a nota 1: ");
-nota2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Digite a nota 2: ");
+nota2 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Digite a nota 1: ");
-nota3 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Digite a nota 3: ");
+nota3 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Digite a nota 1: ");
-nota4 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Digite a nota 4: ");
+nota4 = Convert.ToDouble(Console.ReadLine());
 
 // Validando as notas
-bool nota1Invalida = nota1 < 0.0 || nota1 > 10.0;
-bool nota2Invalida = nota2 < 0.0 || nota2 > 10.0;
-bool nota3Invalida = nota3 < 0.0 || nota3 > 10.0;
-bool nota4Invalida = nota4 < 0.0 || nota4 > 10.0;
+bool nota1Invalida = nota1 < 0 || nota1 > 10;
+bool nota2Invalida = nota2 < 0 || nota2 > 10;
+bool nota3Invalida = nota3 < 0 || nota3 > 10;
+bool nota4Invalida = nota4 < 0 || nota4 > 10;
 
 Console.WriteLine(); // Espacamento
 
