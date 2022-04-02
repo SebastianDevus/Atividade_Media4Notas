@@ -41,7 +41,7 @@ else // Se chegar a esse ponto, as notas são válidas
     if (media < 5)
     {
         // Exibindo média
-        Console.WriteLine($"Sua média é {media:N1}");
+        Console.WriteLine($"Sua média é {media:N1}.");
         
         // Informa que o aluno foi reprovado, em cor vermelha, e reseta a cor
         Console.ForegroundColor = ConsoleColor.Red;
@@ -52,7 +52,7 @@ else // Se chegar a esse ponto, as notas são válidas
     else if (media > 6)
     {
         // Exibindo média
-        Console.WriteLine($"Sua média é {media:N1}");
+        Console.WriteLine($"Sua média é {media:N1}.");
 
         // Informa que o aluno foi aprovado, em cor verde, e reseta a cor
         Console.ForegroundColor = ConsoleColor.Green;
@@ -62,7 +62,7 @@ else // Se chegar a esse ponto, as notas são válidas
     else
     {
         // Exibindo média
-        Console.WriteLine($"Sua média é {media:N1}");     
+        Console.WriteLine($"Sua média é {media:N1}.");     
 
         // Informa que o aluno foi aprovado, em cor amarela, e reseta a cor
         Console.ForegroundColor = ConsoleColor.Yellow;
